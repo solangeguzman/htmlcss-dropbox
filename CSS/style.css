@@ -126,6 +126,15 @@ p{
     margin-top: 5px;
 }
 
+#text-1{
+    text-align: left;
+    margin-top: 20px;
+}
+
+#text-2{
+    margin-left: 30px;
+}
+
 .freccia{
     font-size: 20px;
     margin-top: 9px;
@@ -281,6 +290,112 @@ hr{
     border-style: solid black;
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
+}
+
+
+.container4{
+    text-align: center;
+    min-width: 1200px;
+    height: 1000px;
+    background-color: rgb(255, 255, 255);
+   
+}
+
+.container22{
+    width: 80%;
+    margin-left: 17%;
+}
+
+.container22 ul li{
+    float:left;
+    list-style: none;
+    width:25%;
+    height:410px;
+    background: rgb(255, 255, 255);
+    margin :20px 0px 20px 55px;
+    
+}
+
+
+
+/* 6 box */
+.container5{
+    width: 0 auto;
+    height: 600px;
+    background-color: rgb(110, 131, 199);
+    
+}
+
+#colonnaprincipale{
+    width: 500px;
+    height: 400px;
+    border: coral;
+    border-style: solid;
+    position: relative;
+    
+}
+
+.box{
+    height: 50%;
+    width: 50%;
+    background-color: darkblue;
+    border: rgb(177, 168, 168);
+    border-style: solid;
+   
+}
+
+.box-8{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    background-color: darkblue;
+    border: rgb(177, 168, 168);
+    border-style: solid;
+    left: 50%;
+    top: 50%;
+    
+}
+
+.box-9{
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    background-color: darkblue;
+    border: rgb(177, 168, 168);
+    border-style: solid;
+    left: 50%;
+    bottom: 50%;
+    
+}
+
+/* ----container 6---- */
+
+#colonnaprincipale-2{
+    
+    width: 400px;
+    height: 400px;
+    border: rgb(95, 28, 4);
+    border-style: solid;
+    position: relative;
+}
+
+#colonnaprincipale-3{
+    width: 400px;
+    height: 400px;
+    border: rgb(95, 28, 4);
+    border-style: solid;
+    position: absolute;
+}
+
+
+#colonnaprincipale-4{
+    
+    right: 20%;
+    width: 400px;
+    height: 400px;
+    border: rgb(95, 28, 4);
+    border-style: solid;
+    position: absolute;
 }
 
 
