@@ -225,10 +225,6 @@ hr{
     border-style: solid;
     background-color: rgb(38, 108, 199);
     color: white;
-    
-
-
-
 }
 
 
@@ -240,19 +236,51 @@ hr{
 .container3{
     min-width: 1200px;
     height: 500px;
-    background-color: rgb(39, 108, 173);
+    background-color: rgb(255, 255, 255);
    
 }
 
 
-.content2 {
-    background: rgb(114, 63, 180);
-    height: 300px;
+.box-3 {
+    background: rgb(255, 255, 255);
+    height: 400px;
     border-style: solid;
-    border-color: rgb(39, 159, 189);
+    border-color: rgb(255, 255, 255);
     border: 10px 10px 10px 10px;
-    width: 200px;
-    padding: 8%;
-    margin-top: 10%;
-    margin-left: 50px;
+    width: 430px;
+    top: 50px;
+    left: 83%;
+    position: relative;
 }
+
+.box-4 {
+    background: rgb(255, 255, 255);
+    height: 250px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border: 10px 10px 10px 10px;
+    width: 305px;
+    margin-top: 10%;
+    left: 60%;
+    position: absolute;
+}
+
+#p-1{
+ margin-left: 5px;
+ font-size: 15px;
+ text-align: left;
+}
+
+#buttom-position-1{
+    margin-top: 10px;
+    right: 50px;
+    width: 130px;
+    padding: 8px;
+    font-size: 12px;
+    border-width: 1px;
+    border-style: solid black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+
