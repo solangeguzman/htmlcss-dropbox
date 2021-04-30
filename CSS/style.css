@@ -5,12 +5,12 @@
 }
 
 body{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans';
 }
 
 header {
     background-color: rgb(129, 150, 194);
-    height: 500px;   
+    height: 550px;   
     
      
 }
@@ -48,12 +48,18 @@ header {
 
 .left{
     text-align: center;
-    width: 200px;  
+    width: 25%;  
 }
 
 .right{ 
     text-align: center;
-    width: 200px;
+    width: 25%;
+}
+
+
+.center{
+    width: 25%;
+    
 }
 
 
@@ -119,15 +125,41 @@ p{
 
 .container1{
     min-width: 1200px;
-    height: 500px;
+    height: 950px;
     background-color: salmon;
-
 }
+
+.content {
+    background: rgb(136, 221, 119);
+    height: 700px;
+    border-style: solid;
+    border-color: slateblue;
+    border: 10px 10px 10px 10px;
+    width: 250px;
+    padding: 8%;
+    margin-top: 60%;
+    margin-left: 60%;
+}
+
+
 
 
 .container2{
     min-width: 1200px;
     height: 500px;
     background-color: rgb(39, 108, 173);
+   
+}
 
+
+.content2 {
+    background: rgb(114, 63, 180);
+    height: 300px;
+    border-style: solid;
+    border-color: rgb(39, 159, 189);
+    border: 10px 10px 10px 10px;
+    width: 200px;
+    padding: 8%;
+    margin-top: 10%;
+    margin-left: 50px;
 }
