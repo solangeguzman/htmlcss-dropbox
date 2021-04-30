@@ -47,7 +47,6 @@ header {
 }
 
 .left{
-    text-align: center;
     width: 25%;  
 }
 
@@ -87,6 +86,12 @@ h1{
 
 }
 
+h2{
+    margin-top: 5%;
+    margin-left: 18% ;
+    font-size: 35px;
+}
+
 p{
     text-align: left;
     margin-left: 170px;
@@ -103,6 +108,18 @@ p{
     color: white;
     margin-left: 170px;
 }
+
+#buttom3{
+    width: 170px;
+    padding: 8px;
+    font-size: 12px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: rgb(38, 108, 199);
+    color: white;
+    margin-bottom: 10px;   
+}
+
 
 .text{
     margin-left: 170px;
@@ -123,28 +140,104 @@ p{
     top: 35%;
 }
 
+
+.radio{
+    margin-top: 30px;
+    margin-left: 18%;
+}
+
 .container1{
     min-width: 1200px;
-    height: 950px;
-    background-color: salmon;
+    height: 155vh;
+    background-color: rgb(255, 255, 255);
+    padding: 70px;
+    
 }
 
 .content {
-    background: rgb(136, 221, 119);
-    height: 700px;
+    width: 230px;
+    height: 680px;
     border-style: solid;
-    border-color: slateblue;
-    border: 10px 10px 10px 10px;
-    width: 250px;
-    padding: 8%;
-    margin-top: 60%;
-    margin-left: 60%;
+    border-color:  grey;
+    border: 5px 5px 5px 5px;
+    padding: 5%;
+    margin-top: 10%;
+    margin-left: 70%;
+    font-size: 9px;
+    line-height: 25px;
+    
+   
+}
+
+hr{
+    width: 200px;
+    text-align: left;
 }
 
 
+.check{
+    color: rgb(65, 65, 218);
+}
 
 
 .container2{
+    min-width: 1200px;
+    height: 220px;
+    background-color: rgb(255, 255, 255);
+   
+}
+
+.box-1{
+    width: 795px;
+    margin-top: 30px;
+    padding: 8px;
+    font-size: 12px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: rgb(255, 255, 255);
+    margin-left: 21%;
+    border: solid grey;
+    text-align: center;
+}
+
+
+.box-2{
+    width: 795px;
+    height: 165px;
+    margin-left: 21%;
+    margin-top: 0px;
+    background-color: rgb(255, 255, 255);
+    border: solid grey;
+    text-align: left;
+    line-height: 30px;
+    padding: 20px;
+    position: relative;
+}
+
+#buttom-position{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+    width: 170px;
+    padding: 8px;
+    font-size: 12px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: rgb(38, 108, 199);
+    color: white;
+    
+
+
+
+}
+
+
+hr{
+    width:200px;
+}
+
+
+.container3{
     min-width: 1200px;
     height: 500px;
     background-color: rgb(39, 108, 173);
