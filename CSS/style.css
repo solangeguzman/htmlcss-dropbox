@@ -62,7 +62,7 @@ header {
 }
 
 
-li{
+#li-header{
     display: inline-block;
     margin-left: 20px;  
     text-align: center;
@@ -321,8 +321,8 @@ hr{
 /* 6 box */
 .container5{
     min-width: 1200px;
-    height: 800px;
-    background-color: rgb(163, 179, 231);
+    height: 735px;
+    background-color: rgb(255, 255, 255);
     
 }
 
@@ -384,6 +384,9 @@ hr{
     position: absolute;
 }
 
+#collegamento{
+    margin-left: 18%;
+}
 
 #color-green{
     background-color: rgb(179, 231, 179);
@@ -394,7 +397,7 @@ hr{
 }
 
 #color-vino{
-    background-color: rgb(49, 8, 49);
+    background-color: rgb(61, 7, 61);
 }
 
 #color-red{
@@ -402,11 +405,18 @@ hr{
 }
 
 #color-blue-intensive{
-    background-color: rgb(16, 16, 61);
+    background-color: rgb(22, 22, 100);
+}
+
+#color-azzurro{
+    background-color: rgb(163, 179, 231);
 }
 
 #color-yellow{
     background-color: yellow;
+    border-style: solid;
+   border-width: 10px;
+    border-color: rgb(236, 243, 145);
 }
 #logo-cont{
     color: white;
@@ -416,11 +426,96 @@ hr{
 
 #p-2{
     margin-left: 20px;
-    
+    padding: 10px;
 }
 
 #br-1{
  margin-top: 30px;
  margin-left: 25px;
  width: 100px;
+ 
+}
+
+#testo-container5{
+    font-size: 60px;
+}
+
+.container-A{
+    min-width: 1200px;
+    height: 400px;
+    background-color: rgb(163, 179, 231);
+    
+}
+
+#containerA-text{
+    padding: 8%;
+    color: indigo;
+    font-size: 60px;
+    margin-left: 8%;
+    position: relative;
+}
+
+
+#buttom-position-2{
+    position: absolute;
+    margin-top: 10px;
+    right: 22%;
+    width: 210px;
+    height: 60px;
+    padding: 8px;
+    font-size: 14px;
+    border-width: 1px;
+    border-style: solid;
+    
+}
+
+/* inizio "domande frequenti" */
+
+.container-B{
+    min-width: 900px;
+    height: 700px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#content-B{
+    line-height: 85px;
+    font-size: 20px;
+    padding: 8%;
+    margin-left: 8%;
+}
+
+#cont-B{
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+
+#cont-B-hr{
+    width: 900px;
+}
+
+
+footer{
+min-width: 1200px;
+background-color: rgb(0, 0, 0);
+height: 500px;
+
+}
+
+
+.content-footer{
+    width: 1200px;
+    height: 400px;
+    background-color: cornflowerblue;
+     
+}
+
+
+
+#li-footer{
+    display: inline-block;
+    margin-left: 20px;  
+    text-align-last: auto;
+
 }
