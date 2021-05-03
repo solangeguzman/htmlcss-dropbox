@@ -336,7 +336,7 @@ hr{
 .box-university{
     width: 50%;
     height: 270px;
-    background-color: violet;
+    position: relative;
 }
 
 
